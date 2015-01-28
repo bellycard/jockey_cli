@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require 'jockey_cli'
+
+require 'thor'
+require 'jockey_cli/cli/thor_cli'
+require 'jockey_cli/cli/restart'
+require 'jockey_cli/cli/app_config'
+require 'jockey_cli/cli/scale'
+require 'jockey_cli/cli/connect'
+require 'jockey_cli/cli/deploy'
+require 'jockey_cli/cli/reconcile'
+require 'jockey_cli/cli'
+
+JockeyCli::Cli.start
